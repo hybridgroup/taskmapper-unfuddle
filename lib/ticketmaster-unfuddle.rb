@@ -32,6 +32,7 @@ module TicketMasterMod
       def self.close(ticket, resolution)
         Unfuddler.authenticate(ticket.project.authentication.to_hash)
         project = Unfuddler::Project.find(ticket.project.name)
+
         ticket = project.tickets(:number => ticket.id).first # First because it always returns an array
         ticket.close!(resolution)
       end
@@ -57,14 +58,16 @@ module TicketMasterMod
         projects = Unfuddler::Project.find
         formatted_projects = []
 
-        projects.each do |project|
-          formatted_projects << TicketMasterMod::Project.new({
-            :name => project.short_name,
-            :description => project.description,
-            :system => "unfuddle",
-            :authentication => options[:authentication],
-            :id => project.id,
-          })
+        unless projects.empty?
+          projects.each do |project|
+            formatted_projects << TicketMasterMod::Project.new({
+              :name => project.short_name,
+              :description => project.description,
+              :system => "unfuddle",
+              :authentication => options[:authentication],
+              :id => project.id,
+            })
+          end
         end
 
         formatted_projects
@@ -93,10 +96,9 @@ module TicketMasterMod
               :project => project_instance
             })
           end
-          return formatted_tickets
         end
 
-        []
+        formatted_tickets
       end
     end
   end
