@@ -7,7 +7,7 @@ begin
     gem.name = "ticketmaster-unfuddle"
     gem.summary = %Q{Ticketmaster provider for Unfuddle}
     gem.description = %Q{Ticketmaster provider for Unfuddle}
-    gem.email = "simon@hoerup.dk"
+    gem.email = "simon@hybridgroup.com"
     gem.homepage = "http://ticketrb.com"
     gem.authors = ["Sirupsen"]
     gem.add_dependency "unfuddler", ">= 0"
