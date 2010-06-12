@@ -7,12 +7,13 @@ module TicketMasterMod
         Unfuddler.authenticate(ticket.project.authentication.to_hash)
         project = Unfuddler::Project.find(ticket.project.name)
 
-        ticket = ticket.to_hash.select do |key, value|
-          [:summary, :priority, :description].include?(key.to_sym)
+        new_ticket = {}
+        ticket.to_hash.each_pair do |key, value|
+          new_ticket[key] = value if [:summary, :priority, :description].include?(key.to_sym)
+          new_ticket[key] = value.to_s if value.is_a?(Integer)
         end
-        ticket["priority"] = ticket["priority"].to_s
 
-        project.ticket.create(ticket)
+        project.ticket.create(new_ticket)
       end
 
       def self.save(ticket)
