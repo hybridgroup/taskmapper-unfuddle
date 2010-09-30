@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assignee-id type="integer">44282</assignee-id>
+  <component-id type="integer" nil="true"></component-id>
+  <description>El sistema tendr&#225; un esquema de generaci&#243;n autom&#225;tica de sorteos con par&#225;metros establecidos.
+Por ejemplo: nombre del &quot;Sorteo 100 jugadores, mejores 5 ganan&quot;, m&#225;ximo de tickets 100, m&#237;nimo de tickets 50, buy-in 1.
+
+Debe crearse el modelo RaffleTemplate que manejar&#225; los atributos generales para crear sorteos con attributos iguales.</description>
+  <description-format>markdown</description-format>
+  <due-on type="date" nil="true"></due-on>
+  <field1-value-id type="integer" nil="true"></field1-value-id>
+  <field2-value-id type="integer" nil="true"></field2-value-id>
+  <field3-value-id type="integer" nil="true"></field3-value-id>
+  <hours-estimate-current type="float">0.0</hours-estimate-current>
+  <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+  <id type="integer">476803</id>
+  <milestone-id type="integer">3</milestone-id>
+  <number type="integer">2</number>
+  <priority>4</priority>
+  <project-id type="integer">33041</project-id>
+  <reporter-id type="integer">44282</reporter-id>
+  <resolution>fixed</resolution>
+  <resolution-description></resolution-description>
+  <resolution-description-format>markdown</resolution-description-format>
+  <severity-id type="integer" nil="true"></severity-id>
+  <status>closed</status>
+  <summary>Crear el modelo RaffleTemplate</summary>
+  <version-id type="integer" nil="true"></version-id>
+  <created-at>2009-02-15T18:13:07Z</created-at>
+  <updated-at>2009-03-04T04:03:53Z</updated-at>
+</ticket>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Los jugadores pueden cargar una cantidad definida de cr&#233;ditos virtuales al d&#237;a para participar en sorteos &quot;de mentiritas&quot; :)
+Esto va a ayudar a que los jugadores experimenten el funcionamiento del sistema de una manera cercana a la real, se motiven a jugar sorteos reales y en general se genere contenido en el sitio de manera mas r&#225;pida.
+
+Se debe implementar la funcionalidad para que cada usuario mantenga cr&#233;ditos virtuales. dinero virtual ganado. Adem&#225;s se debe poder generar sorteos virtuales
+
+Tambi&#233;n se debe restringir que solamente se pueda participar en sorteos reales con cr&#233;ditos reales y viceversa.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476814</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">13</number>
+    <priority>5</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>fixed</resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>resolved</status>
+    <summary>Adicionar funcionalidad para jugar con cr&#233;ditos virtuales.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-03-18T03:55:49Z</created-at>
+    <updated-at>2009-11-23T22:55:50Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Actualmente la aplicaci&#243;n usa el plugin resful_authentication para toda la parte de registro de usuarios y manejo de login y autenticaci&#243;n.
+Este plugin es demasiado obstrusivo.
+Buscar y reemplazar este plugin por uno menos obstrusivo o bien implementar nuestro propio mecanismo de login y autenticaci&#243;n en caso de ser requerido.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476815</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">14</number>
+    <priority>5</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>fixed</resolution>
+    <resolution-description>Se implement&#243; un mecanismo propio.</resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>closed</status>
+    <summary>Reemplazar el plugin restful_authentication </summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-03-18T06:11:36Z</created-at>
+    <updated-at>2009-04-13T01:07:44Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Actualmente Rails est&#225; congelado en la versi&#243;n 2.2.2
+La &#250;ltima versi&#243;n estable de Rails es la 2.3.4. As&#237; que se debe actualizar la versi&#243;n de Rails.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476816</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">15</number>
+    <priority>5</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>fixed</resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>closed</status>
+    <summary>Actualizar a Rails 2.3.4</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-03-18T06:12:59Z</created-at>
+    <updated-at>2009-11-11T13:55:43Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Adicionar al proyecto el plugin Settings.
+Crear settings que definen el valor en pesos y en d&#243;lares de cada cr&#233;dito.
+Tambi&#233;n se deben definir settings para el aporte real(neto) en pesos y en d&#243;lares que cada cr&#233;dito hace al pot de un raffle.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date">2009-02-22</due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476802</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">1</number>
+    <priority>4</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>fixed</resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>closed</status>
+    <summary>Adicionar el plugin Settings</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-02-15T18:05:38Z</created-at>
+    <updated-at>2009-03-02T04:27:05Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>El sistema tendr&#225; un esquema de generaci&#243;n autom&#225;tica de sorteos con par&#225;metros establecidos.
+Por ejemplo: nombre del &quot;Sorteo 100 jugadores, mejores 5 ganan&quot;, m&#225;ximo de tickets 100, m&#237;nimo de tickets 50, buy-in 1.
+
+Debe crearse el modelo RaffleTemplate que manejar&#225; los atributos generales para crear sorteos con attributos iguales.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476803</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">2</number>
+    <priority>4</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>fixed</resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>closed</status>
+    <summary>Crear el modelo RaffleTemplate</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-02-15T18:13:07Z</created-at>
+    <updated-at>2009-03-04T04:03:53Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Crear en el modelo Raffle un m&#233;todo que aleatoriamente marque los tickets ganadores.
+Debe tenerse en cuenta el valor max_winners.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476804</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">3</number>
+    <priority>4</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>fixed</resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>closed</status>
+    <summary>Implementar funcionalidad para generar ganaradores.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-02-15T18:35:20Z</created-at>
+    <updated-at>2009-03-03T02:42:12Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Definir cu&#225;les son los posibles estados de un sorteo.
+Utilizar el plugin act_as_state_machine el cual ya se encuentra adicionado el proyecto para definir dichos estados en el modelo Raffle.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476805</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">4</number>
+    <priority>4</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>fixed</resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>closed</status>
+    <summary>Definir los posibles estados de un sorteo.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-02-15T18:39:30Z</created-at>
+    <updated-at>2009-03-03T03:47:27Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Cuando un sorteo no cumple con la cantidad m&#237;nima de tickets comprados (min_tickets) el sorteo debe invalidarse y los c&#341;editos deben volver a sumarse los players.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476806</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">5</number>
+    <priority>4</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>fixed</resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>closed</status>
+    <summary>Implementar m&#233;todo para invalidar un sorteo debido a pocos tickets.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-02-15T18:41:26Z</created-at>
+    <updated-at>2009-03-05T04:24:56Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Cada operaci&#243;n sobre el atributo &quot;credits&quot; de un jugador debe almacenar un registro manejado por el modelo CredidTransaction, debe especificar el tipo de transacci&#243;n, la cantidad de cr&#233;ditos, la fecha y hora, la candidad cr&#233;ditos involucrados en la transacci&#243;n.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476807</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">6</number>
+    <priority>4</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>invalid</resolution>
+    <resolution-description>Se creo este modelo pero se elimin&#243; luego dado que no serv&#237;a para nada.</resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>closed</status>
+    <summary>Crear el modelo CreditTransaction.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-02-15T18:43:45Z</created-at>
+    <updated-at>2009-11-11T13:56:46Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Cada vez que un jugador decida retirar una cantidad de dinero de su balance, debe almacenarse un objeto Withdrawal. Debe guardarse la fecha y hora, la cantidad retirada y debe crearse en la tabla un campo type tipo string para implementarse luego el patr&#243;n Herencia Simple de Tabla (STI).
+</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476808</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">7</number>
+    <priority>4</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>fixed</resolution>
+    <resolution-description>No se implement&#243; STI porque no era necesario, en cambio se cre&#243; un campo status para determinar si el withdrawal fue exitoso o no.</resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>closed</status>
+    <summary>Crear el modelo Withdrawal.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-02-15T18:48:36Z</created-at>
+    <updated-at>2009-11-11T14:04:15Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">44282</assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Deben implementarse tareas que ser&#225;n llamados por un proceso en background (cron?) para:
+
+1. Mover los sorteos con open_time cumplido a estado 'opened'.
+2. Mover los sorteos con close_time cumplido a estado 'closed'.
+3. Mover los sorteos con condiciones para ser cancelados a estado 'cancelled'.
+4. Generar ganaradores para los sorteos con play_time cumplido. Estos no necesitan moverse a estado 'played' porque al generarse ganadores el sorteo se mueve automaticamente a dicho estado.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476811</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">10</number>
+    <priority>4</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution>fixed</resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>resolved</status>
+    <summary>Implementar tareas para cambiar los estados de los sorteos.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-03-02T15:30:46Z</created-at>
+    <updated-at>2009-11-20T14:10:50Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer" nil="true"></assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Crear la p&#225;gina a donde se dirigen los usuarios luego de ser logeados.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476809</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">8</number>
+    <priority>3</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution></resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>new</status>
+    <summary>Crear el home page.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-02-25T05:01:51Z</created-at>
+    <updated-at>2009-02-25T05:01:51Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer" nil="true"></assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Crear una interfase de administraci&#243;n de Settings.
+Debe modificar los valores de la tabla settings.</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476810</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">9</number>
+    <priority>2</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution></resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>new</status>
+    <summary>Administrador de Settings.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-03-02T04:19:24Z</created-at>
+    <updated-at>2009-03-02T04:20:47Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer" nil="true"></assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Debe crearse un m&#243;dulo para la administraci&#243;n de RaffleTemplates (CRUD).</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476812</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">11</number>
+    <priority>2</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution></resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>new</status>
+    <summary>Administrador de RaffleTemplates.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-03-04T03:37:22Z</created-at>
+    <updated-at>2009-03-04T03:37:22Z</updated-at>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer" nil="true"></assignee-id>
+    <component-id type="integer" nil="true"></component-id>
+    <description>Cada player tiene una moneda establecida que es determinada por el pa&#237;s en el que vive. Debe proveerse soporte para dicha funcionalidad.
+Los sorteos tambi&#233;n deben tener un atributo que indica en que moneda se est&#225; jugando el sorteo.
+Los players solamente pueden comprar tickets en los sorteos que sean de su misma moneda.
+</description>
+    <description-format>markdown</description-format>
+    <due-on type="date" nil="true"></due-on>
+    <field1-value-id type="integer" nil="true"></field1-value-id>
+    <field2-value-id type="integer" nil="true"></field2-value-id>
+    <field3-value-id type="integer" nil="true"></field3-value-id>
+    <hours-estimate-current type="float">0.0</hours-estimate-current>
+    <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+    <id type="integer">476813</id>
+    <milestone-id type="integer">3</milestone-id>
+    <number type="integer">12</number>
+    <priority>1</priority>
+    <project-id type="integer">33041</project-id>
+    <reporter-id type="integer">44282</reporter-id>
+    <resolution></resolution>
+    <resolution-description></resolution-description>
+    <resolution-description-format>markdown</resolution-description-format>
+    <severity-id type="integer" nil="true"></severity-id>
+    <status>new</status>
+    <summary>Definir moneda usada en el sorteo y moneda usada por el jugador.</summary>
+    <version-id type="integer" nil="true"></version-id>
+    <created-at>2009-03-05T04:30:50Z</created-at>
+    <updated-at>2009-11-11T13:57:21Z</updated-at>
+  </ticket>
+</tickets>

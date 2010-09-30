@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assignee-id type="integer">44282</assignee-id>
+  <component-id type="integer" nil="true"></component-id>
+  <description>Los jugadores pueden cargar una cantidad definida de cr&#233;ditos virtuales al d&#237;a para participar en sorteos &quot;de mentiritas&quot; :)
+Esto va a ayudar a que los jugadores experimenten el funcionamiento del sistema de una manera cercana a la real, se motiven a jugar sorteos reales y en general se genere contenido en el sitio de manera mas r&#225;pida.
+
+Se debe implementar la funcionalidad para que cada usuario mantenga cr&#233;ditos virtuales. dinero virtual ganado. Adem&#225;s se debe poder generar sorteos virtuales
+
+Tambi&#233;n se debe restringir que solamente se pueda participar en sorteos reales con cr&#233;ditos reales y viceversa.</description>
+  <description-format>markdown</description-format>
+  <due-on type="date" nil="true"></due-on>
+  <field1-value-id type="integer" nil="true"></field1-value-id>
+  <field2-value-id type="integer" nil="true"></field2-value-id>
+  <field3-value-id type="integer" nil="true"></field3-value-id>
+  <hours-estimate-current type="float">0.0</hours-estimate-current>
+  <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+  <id type="integer">476814</id>
+  <milestone-id type="integer">3</milestone-id>
+  <number type="integer">13</number>
+  <priority>5</priority>
+  <project-id type="integer">33041</project-id>
+  <reporter-id type="integer">44282</reporter-id>
+  <resolution>fixed</resolution>
+  <resolution-description></resolution-description>
+  <resolution-description-format>markdown</resolution-description-format>
+  <severity-id type="integer" nil="true"></severity-id>
+  <status>resolved</status>
+  <summary>Adicionar funcionalidad para jugar con cr&#233;ditos virtuales.</summary>
+  <version-id type="integer" nil="true"></version-id>
+  <created-at>2009-03-18T03:55:49Z</created-at>
+  <updated-at>2009-11-23T22:55:50Z</updated-at>
+</ticket>

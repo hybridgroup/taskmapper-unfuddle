@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <account-id type="integer">19796</account-id>
+  <archived type="boolean">false</archived>
+  <assignee-on-resolve>reporter</assignee-on-resolve>
+  <backup-frequency type="integer">0</backup-frequency>
+  <close-ticket-simultaneously-default type="boolean">false</close-ticket-simultaneously-default>
+  <default-ticket-report-id type="integer">0</default-ticket-report-id>
+  <description></description>
+  <disk-usage type="integer">3060</disk-usage>
+  <enable-time-tracking type="boolean">true</enable-time-tracking>
+  <id type="integer">33024</id>
+  <s3-access-key-id></s3-access-key-id>
+  <s3-backup-enabled type="boolean">false</s3-backup-enabled>
+  <s3-bucket-name></s3-bucket-name>
+  <short-name>wework</short-name>
+  <theme>grey</theme>
+  <ticket-field1-active type="boolean">false</ticket-field1-active>
+  <ticket-field1-disposition>text</ticket-field1-disposition>
+  <ticket-field1-title>Field 1</ticket-field1-title>
+  <ticket-field2-active type="boolean">false</ticket-field2-active>
+  <ticket-field2-disposition>text</ticket-field2-disposition>
+  <ticket-field2-title>Field 2</ticket-field2-title>
+  <ticket-field3-active type="boolean">false</ticket-field3-active>
+  <ticket-field3-disposition>text</ticket-field3-disposition>
+  <ticket-field3-title>Field 3</ticket-field3-title>
+  <title>weWork</title>
+  <created-at>2008-11-08T23:47:21Z</created-at>
+  <updated-at>2010-09-11T01:05:25Z</updated-at>
+</project>
