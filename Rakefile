@@ -6,8 +6,8 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "ticketmaster-unfuddle"
     gem.summary = %Q{The Unfuddle provider for ticketmaster.}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "luis@time4code.com"
+    gem.description = %Q{Unfuddle provider for ticketmaster implemented with ActiveResource}
+    gem.email = "luis@hybridgroup.com"
     gem.homepage = "http://github.com/luishurtado/ticketmaster-unfuddle"
     gem.authors = ["Luis Hurtado"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
