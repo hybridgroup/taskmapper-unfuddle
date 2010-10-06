@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{The Unfuddle provider for ticketmaster.}
     gem.description = %Q{Unfuddle provider for ticketmaster implemented with ActiveResource}
     gem.email = "luis@hybridgroup.com"
-    gem.homepage = "http://github.com/luishurtado/ticketmaster-unfuddle"
+    gem.homepage = "http://github.com/hybridgroup/ticketmaster-unfuddle"
     gem.authors = ["Luis Hurtado"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
