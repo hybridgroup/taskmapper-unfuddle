@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment>
+  <author-id type="integer">47763</author-id>
+  <body>New comment created.</body>
+  <body-format>markdown</body-format>
+  <id type="integer">4</id>
+  <parent-id type="integer">476834</parent-id>
+  <parent-type>Ticket</parent-type>
+  <created-at>2009-11-26T17:19:22Z</created-at>
+  <updated-at>2009-11-26T17:19:22Z</updated-at>
+</comment>

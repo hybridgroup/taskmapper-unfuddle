@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comments type="array">
+  <comment>
+    <author-id type="integer">47763</author-id>
+    <body>I found Devise as a very complete solution for authentication, also found that it takes care of sessions expiration(Timeoutable) and sign in tracking(Trackable) too (http://github.com/plataformatec/devise), and the better is that it seems not to be a very difficult task to get it implemented in the app.</body>
+    <body-format>markdown</body-format>
+    <id type="integer">2</id>
+    <parent-id type="integer">476834</parent-id>
+    <parent-type>Ticket</parent-type>
+    <created-at>2009-11-26T17:19:22Z</created-at>
+    <updated-at>2009-11-26T17:19:22Z</updated-at>
+  </comment>
+</comments>

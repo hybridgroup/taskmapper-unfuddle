@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assignee-id type="integer">44282</assignee-id>
+  <component-id type="integer" nil="true"></component-id>
+  <description>Explore the following solution and write in the ticket a comment about:
+
+http://blog.plataformatec.com.br/2009/10/devise-flexible-authentication-solution-for-rails/
+</description>
+  <description-format>markdown</description-format>
+  <due-on type="date" nil="true"></due-on>
+  <field1-value-id type="integer" nil="true"></field1-value-id>
+  <field2-value-id type="integer" nil="true"></field2-value-id>
+  <field3-value-id type="integer" nil="true"></field3-value-id>
+  <hours-estimate-current type="float">0.0</hours-estimate-current>
+  <hours-estimate-initial type="float">0.0</hours-estimate-initial>
+  <id type="integer">476834</id>
+  <milestone-id type="integer">10</milestone-id>
+  <number type="integer">4</number>
+  <priority>5</priority>
+  <project-id type="integer">33042</project-id>
+  <reporter-id type="integer">44282</reporter-id>
+  <resolution>fixed</resolution>
+  <resolution-description></resolution-description>
+  <resolution-description-format>markdown</resolution-description-format>
+  <severity-id type="integer" nil="true"></severity-id>
+  <status>resolved</status>
+  <summary>Install an authentication mechanism to the project</summary>
+  <version-id type="integer" nil="true"></version-id>
+  <created-at>2009-11-26T13:52:01Z</created-at>
+  <updated-at>2010-03-06T22:12:15Z</updated-at>
+</ticket>
