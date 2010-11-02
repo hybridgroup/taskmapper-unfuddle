@@ -146,4 +146,7 @@ module UnfuddleAPI
     site_format << '/projects/:project_id'
   end
   
+  class People < Base
+  end
+  
 end
