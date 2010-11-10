@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ticketmaster-unfuddle}
-  s.version = "0.3.1"
+  s.version = "0.3.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Luis Hurtado"]
-  s.date = %q{2010-11-02}
+  s.date = %q{2010-11-09}
   s.description = %q{Unfuddle provider for ticketmaster implemented with ActiveResource}
   s.email = %q{luis@hybridgroup.com}
   s.extra_rdoc_files = [
@@ -50,7 +50,8 @@ Gem::Specification.new do |s|
      "spec/spec.opts",
      "spec/spec_helper.rb",
      "spec/ticketmaster-unfuddle_spec.rb",
-     "spec/tickets_spec.rb"
+     "spec/tickets_spec.rb",
+     "ticketmaster-unfuddle.gemspec"
   ]
   s.homepage = %q{http://github.com/hybridgroup/ticketmaster-unfuddle}
   s.rdoc_options = ["--charset=UTF-8"]
