@@ -24,13 +24,19 @@ module TicketMaster::Provider
       end
       
       def assignee
-        @assignee ||= UnfuddleAPI::People.find(self[:assignee_id])
-        @assignee.username
+        @assignee ||= begin
+          UnfuddleAPI::People.find(self[:assignee_id]).username
+          rescue
+          ''
+          end
       end
       
       def requestor
-        @requestor ||= UnfuddleAPI::People.find(self[:reporter_id])
-        @requestor.username
+        @requestor ||= begin
+          UnfuddleAPI::People.find(self[:reporter_id]).user_name
+          rescue
+          ''
+          end
       end
       
     end

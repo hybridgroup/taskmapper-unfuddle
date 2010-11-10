@@ -10,8 +10,11 @@ module TicketMaster::Provider
       # declare needed overloaded methods here
       
       def author
-        @author ||= UnfuddleAPI::People.find(self.author_id)
-        @author.username
+        @author ||= begin
+          UnfuddleAPI::People.find(self.author_id).username
+          rescue ActiveResource::UnauthorizedAccess
+          ''
+          end
       end
       
       def created_at
