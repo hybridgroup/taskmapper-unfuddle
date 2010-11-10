@@ -11,8 +11,8 @@ module TicketMaster::Provider
       
       def author
         @author ||= begin
-          UnfuddleAPI::People.find(self.author_id).username
-          rescue ActiveResource::UnauthorizedAccess
+          UnfuddleAPI::People.find(self[:author_id]).username
+          rescue
           ''
           end
       end
