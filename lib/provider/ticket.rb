@@ -33,7 +33,7 @@ module TicketMaster::Provider
       
       def requestor
         @requestor ||= begin
-          UnfuddleAPI::People.find(self[:reporter_id]).user_name
+          UnfuddleAPI::People.find(self[:reporter_id]).username
           rescue
           ''
           end
