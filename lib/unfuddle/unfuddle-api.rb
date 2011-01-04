@@ -70,7 +70,7 @@ module UnfuddleAPI
   
   self.host_format   = '%s://%s%s/api/v1'
   self.domain_format = '%s.unfuddle.com'
-  self.protocol      = 'http'
+  self.protocol      = 'https'
   self.port          = ''
 
   class Base < ActiveResource::Base
