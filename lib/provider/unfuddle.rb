@@ -26,9 +26,9 @@ module TicketMaster::Provider
     # declare needed overloaded methods here
     
     def valid?
-      begin
+      begin 
         PROJECT_API.find(:first)
-        true 
+        true
       rescue
         false
       end
