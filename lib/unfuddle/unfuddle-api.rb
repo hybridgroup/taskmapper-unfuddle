@@ -146,6 +146,10 @@ module UnfuddleAPI
     site_format << '/projects/:project_id'
   end
   
+  class Milestone < Base
+    site_format << '/projects/:project_id'
+  end
+  
   class People < Base
   end
   
