@@ -13,6 +13,12 @@ as of version 0.4.0, the protocol is 'https'. Some older projects may need to se
 
     unfuddle = TicketMaster.new(:unfuddle, :username => "user", :password => "p4ss!", :account => 'unfud', :protocol => 'http')
     
+Fetching milestones
+
+		unfuddle = TicketMaster.new(:unfuddle, :username => "user", :password => "p4ss!", :account => 'unfud')
+		UnfuddleAPI::Milestone.find(:all, :params => { :project_id => 56 }) # all milestones in project
+		UnfuddleAPI::Milestone.find(283, :params => { :project_id => 56 }) # milestone with ID 283
+
 ## Note on Patches/Pull Requests
  
 * Fork the project.
