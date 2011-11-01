@@ -74,6 +74,7 @@ module UnfuddleAPI
   self.port          = ''
 
   class Base < ActiveResource::Base
+    self.format = :xml
     def self.inherited(base)
       UnfuddleAPI.resources << base
       class << base
