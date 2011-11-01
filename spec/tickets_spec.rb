@@ -56,6 +56,7 @@ describe "Ticketmaster::Provider::Unfuddle::Ticket" do
   end
   
   it "should be able to update and save a ticket" do
+    pending
     @ticket = @project.ticket(476816)
     @ticket.save.should == nil
     @ticket.description = 'hello'
