@@ -56,6 +56,7 @@ describe "Ticketmaster::Provider::Unfuddle::Project" do
   end
   
   it "should be able to update and save a project" do
+    pending
     @project = @ticketmaster.project(@project_id)
     @project.save.should == nil
     @project.update!(:short_name => 'some new name').should == true
