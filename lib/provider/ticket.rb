@@ -1,12 +1,25 @@
-module TicketMaster::Provider
+module TaskMapper::Provider
   module Unfuddle
-    # Ticket class for ticketmaster-unfuddle
+    # Ticket class for taskmapper-unfuddle
     #
     
-    class Ticket < TicketMaster::Provider::Base::Ticket
+    class Ticket < TaskMapper::Provider::Base::Ticket
       API = UnfuddleAPI::Ticket # The class to access the api's tickets
       # declare needed overloaded methods here
       
+      def initialize(*options) 
+        @system_data ||= {}
+        @cache ||= {}
+        first = options.shift 
+        case first 
+        when Hash
+          super first.to_hash
+        else
+          @system_data[:client] = first 
+          super first.attributes.merge! :project_id => first.prefix_options[:project_id]
+        end
+      end
+
       def title
         self.summary
       end
@@ -17,10 +30,6 @@ module TicketMaster::Provider
       
       def updated_at
         @updated_at ||= self[:updated_at] ? Time.parse(self[:updated_at]) : nil
-      end
-      
-      def project_id
-        self.prefix_options[:project_id]
       end
       
       def assignee

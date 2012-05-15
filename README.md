@@ -1,17 +1,17 @@
-# ticketmaster-unfuddle
+# taskmapper-unfuddle
 
-Ticketmaster provider for Unfuddle.
+TaskMapper provider for Unfuddle.
 
 ## Usage
 
-Instantiate the TicketMaster instance
+Instantiate the TaskMapper instance
 
-    unfuddle = TicketMaster.new(:unfuddle, :username => "user", :password => "p4ss!", :account => 'unfud')
+    unfuddle = TaskMapper.new(:unfuddle, :username => "user", :password => "p4ss!", :account => 'unfud')
 
 if this gives you trouble when trying to access projects or tickets, you can set the protocol explicitly. By default,
 as of version 0.4.0, the protocol is 'https'. Some older projects may need to set to 'http'.
 
-    unfuddle = TicketMaster.new(:unfuddle, :username => "user", :password => "p4ss!", :account => 'unfud', :protocol => 'http')
+    unfuddle = TaskMapper.new(:unfuddle, :username => "user", :password => "p4ss!", :account => 'unfud', :protocol => 'http')
     
 ## Note on Patches/Pull Requests
  

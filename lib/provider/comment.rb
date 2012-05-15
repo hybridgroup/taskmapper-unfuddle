@@ -1,14 +1,29 @@
-module TicketMaster::Provider
+module TaskMapper::Provider
   module Unfuddle
-    # The comment class for ticketmaster-unfuddle
+    # The comment class for taskmapper-unfuddle
     #
-    # Do any mapping between Ticketmaster and your system's comment model here
+    # Do any mapping between TaskMapper and your system's comment model here
     # versions of the ticket.
     #
-    class Comment < TicketMaster::Provider::Base::Comment
+    class Comment < TaskMapper::Provider::Base::Comment
       API = UnfuddleAPI::Comment # The class to access the api's comments
       # declare needed overloaded methods here
       
+      def initialize(*options) 
+        @system_data ||= {}
+        @cache ||= {}
+        first = options.shift
+        case first
+        when Hash
+          super first.to_hash
+        else
+          @system_data[:client] = first
+          super first.attributes.merge!(
+                      :project_id => first.prefix_options[:project_id],
+                      :ticket_id => first.prefix_options[:ticket_id])
+        end
+      end
+
       def author
         @author ||= begin
           UnfuddleAPI::People.find(self[:author_id]).username
@@ -23,14 +38,6 @@ module TicketMaster::Provider
       
       def updated_at
         @updated_at ||= self[:updated_at] ? Time.parse(self[:updated_at]) : nil
-      end
-      
-      def project_id
-        self.prefix_options[:project_id]
-      end
-      
-      def ticket_id
-        self.prefix_options[:ticket_id]
       end
       
     end

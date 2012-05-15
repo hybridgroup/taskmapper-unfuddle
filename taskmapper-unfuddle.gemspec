@@ -4,13 +4,13 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{ticketmaster-unfuddle}
+  s.name = %q{taskmapper-unfuddle}
   s.version = "0.6.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Luis Hurtado}]
   s.date = %q{2011-11-02}
-  s.description = %q{Unfuddle provider for ticketmaster implemented with ActiveResource}
+  s.description = %q{Unfuddle provider for taskmapper implemented with ActiveResource}
   s.email = %q{luis@hybridgroup.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
     "lib/provider/project.rb",
     "lib/provider/ticket.rb",
     "lib/provider/unfuddle.rb",
-    "lib/ticketmaster-unfuddle.rb",
+    "lib/taskmapper-unfuddle.rb",
     "lib/unfuddle/unfuddle-api.rb",
     "spec/comments_spec.rb",
     "spec/fixtures/comments.xml",
@@ -46,14 +46,14 @@ Gem::Specification.new do |s|
     "spec/projects_spec.rb",
     "spec/spec.opts",
     "spec/spec_helper.rb",
-    "spec/ticketmaster-unfuddle_spec.rb",
+    "spec/taskmapper-unfuddle_spec.rb",
     "spec/tickets_spec.rb",
-    "ticketmaster-unfuddle.gemspec"
+    "taskmapper-unfuddle.gemspec"
   ]
-  s.homepage = %q{http://github.com/hybridgroup/ticketmaster-unfuddle}
+  s.homepage = %q{http://github.com/hybridgroup/taskmapper-unfuddle}
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.6}
-  s.summary = %q{The Unfuddle provider for ticketmaster.}
+  s.summary = %q{The Unfuddle provider for taskmapper.}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

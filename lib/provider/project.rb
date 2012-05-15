@@ -1,11 +1,24 @@
-module TicketMaster::Provider
+module TaskMapper::Provider
   module Unfuddle
-    # Project class for ticketmaster-unfuddle
+    # Project class for taskmapper-unfuddle
     #
     #
-    class Project < TicketMaster::Provider::Base::Project
+    class Project < TaskMapper::Provider::Base::Project
       API = UnfuddleAPI::Project # The class to access the api's projects
       # declare needed overloaded methods here
+      
+      def initialize(*options) 
+        @system_data ||= {}
+        @cache ||= {}
+        first = options.shift
+        case first 
+        when Hash
+          super(first.to_hash)
+        else
+          @system_data[:client] = first
+          super(first.attributes)
+        end
+      end
       
       def name
         self.title
