@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "taskmapper-unfuddle"
-  s.version = "0.7.0"
+  s.version = "0.8.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Luis Hurtado"]
-  s.date = "2012-05-15"
+  s.date = "2013-04-16"
   s.description = "Unfuddle provider for taskmapper implemented with ActiveResource"
   s.email = "luis@hybridgroup.com"
   s.extra_rdoc_files = [
@@ -56,23 +56,23 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/hybridgroup/taskmapper-unfuddle"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.17"
+  s.rubygems_version = "1.8.24"
   s.summary = "The Unfuddle provider for taskmapper."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<taskmapper>, ["~> 0.8"])
-      s.add_runtime_dependency(%q<addressable>, ["~> 2.2"])
+      s.add_runtime_dependency(%q<taskmapper>, [">= 0"])
+      s.add_runtime_dependency(%q<addressable>, [">= 0"])
       s.add_development_dependency(%q<rspec>, ["~> 2.8"])
       s.add_development_dependency(%q<bundler>, ["~> 1.1"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6"])
       s.add_development_dependency(%q<simplecov>, ["~> 0.5"])
       s.add_development_dependency(%q<rcov>, ["~> 1.0"])
     else
-      s.add_dependency(%q<taskmapper>, ["~> 0.8"])
-      s.add_dependency(%q<addressable>, ["~> 2.2"])
+      s.add_dependency(%q<taskmapper>, [">= 0"])
+      s.add_dependency(%q<addressable>, [">= 0"])
       s.add_dependency(%q<rspec>, ["~> 2.8"])
       s.add_dependency(%q<bundler>, ["~> 1.1"])
       s.add_dependency(%q<jeweler>, ["~> 1.6"])
@@ -80,8 +80,8 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rcov>, ["~> 1.0"])
     end
   else
-    s.add_dependency(%q<taskmapper>, ["~> 0.8"])
-    s.add_dependency(%q<addressable>, ["~> 2.2"])
+    s.add_dependency(%q<taskmapper>, [">= 0"])
+    s.add_dependency(%q<addressable>, [">= 0"])
     s.add_dependency(%q<rspec>, ["~> 2.8"])
     s.add_dependency(%q<bundler>, ["~> 1.1"])
     s.add_dependency(%q<jeweler>, ["~> 1.6"])
