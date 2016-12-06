@@ -117,10 +117,6 @@ module UnfuddleAPI
     def messages(options = {})
       Message.find(:all, :params => options.update(:project_id => id))
     end
-  
-    def milestones(options = {})
-      Milestone.find(:all, :params => options.update(:project_id => id))
-    end
   end
 
   # Find tickets
@@ -144,6 +140,10 @@ module UnfuddleAPI
   end
   
   class Message < Base
+    site_format << '/projects/:project_id'
+  end
+  
+  class Milestone < Base
     site_format << '/projects/:project_id'
   end
   
